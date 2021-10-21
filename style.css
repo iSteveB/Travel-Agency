@@ -1,0 +1,138 @@
+/* General */
+
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.wrapper{
+    width: auto;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+h1{
+    font-family: 'Crete Round', serif;
+    font-size: 45px;
+    color: #444;
+}
+
+h2{
+    color: #444;
+    font-size: 55px;
+}
+
+h4{
+    font-size: 24px;
+    color: #444
+}
+
+p{
+    line-height: 20px;
+    color: #777;
+}
+
+.dot{
+    color: orange;
+}
+
+a{
+    text-decoration: none;
+    color: #444;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+/* HEADER */
+header{
+    height: 120px;
+}
+
+header h1{
+    float: left;
+    margin-top: 32px;
+}
+nav{
+    float: right;
+    margin-top: 50px;
+}
+
+header li{
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+/* MAIN IMAGE */
+
+#main-image{
+    height: 580px;
+    background: url(./images/bridge.jpg) center;
+    position: relative;
+}
+
+#main-image h2{
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 100px 0 40px 0;
+}
+
+#main-image button{
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: #ff7a00;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+}
+button:hover{
+    background-color: #02b8dd;
+}
+
+/* STEPS */
+
+#steps .wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+}
+
+#steps .wrapper div{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#steps h4{
+    text-transform: uppercase;
+    margin: 40px auto 20px auto;
+}
+
+/* Tour */
+
+#tour{
+
+}
+
+.overlay button{
+
+}
